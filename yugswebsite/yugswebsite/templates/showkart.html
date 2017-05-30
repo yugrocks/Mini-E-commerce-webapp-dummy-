@@ -1,0 +1,7 @@
+<!Doctype html><html><head><title>Your Kart</title></head>
+      <body><p>Items in your kart:</p><br>
+      <ol>
+      {% for object in kart%}
+      <li>{{object.product_name}}</li>
+      {%endfor%}
+      </ol></body></html>

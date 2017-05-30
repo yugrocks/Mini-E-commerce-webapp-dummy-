@@ -1,0 +1,7 @@
+<!Doctype html><html><head><title>Your Wishlist</title></head>
+      <body><p>Items in your Wishlist:</p><br>
+      <ol>
+      {% for object in wishlist%}
+      <li>{{object.product_name}}</li>
+      {%endfor%}
+      </ol></body></html>
